@@ -1,0 +1,4 @@
+build = "node --check app.mts"
+start = "node app.mts"
+healthcheck_path = "/"
+port_env_var = "PORT"
